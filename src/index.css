@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    --off-white: #ECDFCC;
+    --light-grey: #3C3D37;
+    --light-green: #697565;
+    --red-logo: #783030;
+    --bg-red-gradient: linear-gradient(to right, #783030, #833d36, #8e493d, #995644, #a3634c, #a3634c, #a3634c, #a3634c, #995644, #8e493d, #833d36, #783030);
+    --bg-black: #161513;
+    --bg-gradient: linear-gradient(to right top, #181c14, #21241c, #2a2c25, #33342e, #3c3d37);
+    --margin-comp: 136px;
+    
+}
+
+
+body {
+    color: white;
+    font-family: 'Poppins', 'sans-serif';
+    background-image: var(--bg-gradient);
+
+    
+}
+
+.animation-border {
+    --color: var(--red-logo); /* the color of the border */
+    --border: 8px;   /* the thickness of the border */
+    --offset: 16px;   /* control the movement of the border */
+    --gap: 5px;       /* the gap on hover */
+    
+    cursor: pointer;
+    padding: calc(var(--border) + var(--gap));
+    border: var(--offset) solid #0000;
+    --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)),#0000 calc(100% - var(--border)));
+    -webkit-mask: var(--_m);
+            mask: var(--_m);
+    --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%,#0000;
+    --_s: var(--offset);
+    --_r: 100% 100% at;
+    background:
+      radial-gradient(var(--_r) 0    0   ,var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
+      radial-gradient(var(--_r) 100% 0   ,var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
+      radial-gradient(var(--_r) 0    100%,var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
+      radial-gradient(var(--_r) 100% 100%,var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s));
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    transition: .4s;
+        &:hover {
+        --_s: 0px
+         }
+  }
+  
+  .hover-animation {
+    position: relative;
+  }
+  
+  .hover-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    top: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--red-logo);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .anchor-link {
+    text-decoration: none;
+    color: var(--off-white);
+  }
+
+
