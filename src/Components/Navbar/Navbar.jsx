@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar" id="navbar1">
+    <div className="navbar" id="home">
       <img src={logo} alt="logo Kim" className="nav-logo" />
       <img
         src={menu_open}
@@ -43,12 +43,12 @@ const Navbar = () => {
         />
         <img src={logoMobile} alt="logo Kim" className="nav-logo-mobile" />
         <li className="hover-animation">
-          <AnchorLink className="anchor-link">
+          <AnchorLink className="anchor-link" href="#home">
             Home
           </AnchorLink>
         </li>
         <li className="hover-animation">
-          <AnchorLink className="anchor-link" offset="100" href="#about">
+          <AnchorLink className="anchor-link" offset="30" href="#about">
             Sobre mim
           </AnchorLink>
         </li>
@@ -114,11 +114,11 @@ const Navbar = () => {
         />
       </div>
 
-      <div>
+      {/* <div>
           <AnchorLink offset={100} className="anchor-link top-0-link" href="#navbar1">
             <img className="top-arrow" src={up_arrow} alt="" />
           </AnchorLink>
-      </div>
+      </div> */}
     </div>
   );
 };

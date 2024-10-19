@@ -1,10 +1,10 @@
 .construction {
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 10rem;
 
 
     h1{
-        font-size: 72px;
+        font-size: 3.5rem;
         text-transform: uppercase;
         line-height: 100px;
         font-weight: 400;
@@ -13,7 +13,7 @@
 
     p {
         font-weight: 200;
-        font-size: 18px;
+        font-size: 1rem;
     }
 
 }
@@ -27,8 +27,8 @@
 .progress {
     position: relative;
     width: 100%;
-    max-width: 700px;
-    margin: 16px auto;
+    max-width: 40rem;
+    margin: 1rem auto;
     padding: 10px 0;
 }
 
@@ -64,18 +64,18 @@
 }
 
 .socials {
-    margin-top: 20rem;
+    margin-top: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .icons {
     border: 1px solid var(--off-white);
     border-radius: 50%;
     background-color: transparent;
-    padding: 16px;
+    padding: .5rem;
     transition: 1s;
 
     &:hover {
@@ -86,12 +86,12 @@
 @media(max-width:750px) {
     .construction {
 
-        margin-top: 7.5rem;
+        margin-top: 15rem;
 
         h1{
             padding: .5rem;
             line-height: 50px;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
         }
 
         p {
@@ -132,11 +132,31 @@
 
     .socials{
 
-        margin-top: 7.5rem;
+        margin-top: 15rem;
 
         .icons {
             padding: .2rem;
         }
+    }
+}
+
+@media(max-width:500px) {
+    .construction {
+        margin-top: 12rem;
+        
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 1.2rem;
+            padding: .6rem;
+        }
+    }
+
+    .socials {
+        margin-top: 15rem;
     }
 }
 

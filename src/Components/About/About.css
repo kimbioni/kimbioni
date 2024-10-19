@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 144px;
+    margin-top: 8rem;
 }
 
 .about-title {
@@ -10,15 +10,14 @@
     z-index: 1;
 
     h1 {
-        padding: 0 30px;
-        font-size: 80px;
+        font-size: 3.5rem;
         font-weight: 600;
     }
 
     img {
         position: absolute;
-        bottom: 0;
-        right: 0;
+        bottom: -5px;
+        right: -15px;
     }
 }
 
@@ -29,51 +28,34 @@
 .about-left {
 
         img{
-            width: 400px;
-            height: 600px;
-            border-radius: 20px;
+            width: 20rem;
+            height: 30rem;
+            border-radius: 2rem;
             object-fit: cover;
-            object-position: 0% 30%;
     }
 }
 
 .about-sections {
     padding: 2rem;
-    margin-top: 13rem;
+    margin-top: 5rem;
     display: flex;
-    gap: 80px;
+    gap: 4rem;
     align-items: center;
 }
 
 .about-right {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-}
-
-.about-pg {
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 35px;
-    display: flex;
-    flex-direction: column;
     gap: 3rem;
 }
 
-.about-skill {
-    transition: 0.3s;
-    max-width: 150px;
-
-
-    p {
-        font-size: 24px;
-    }
-
-    &:hover {
-        transform: scale(1.05);
-        transition: 0.3s;
-    }
-
+.about-pg {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .habilidades {
@@ -105,27 +87,34 @@
 @media(max-width:1200px) {
 
     .about {
+        
+        margin-top: 8rem;
 
         h1 {
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
     }
 
     .about-sections {
-        margin-top: 5rem;
+        margin-top: 3rem;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 2rem;
     }
 
     .about-left {
 
         img{
-            width: 20rem;
-            height: 30rem;
+            width: 18rem;
+            height: 18rem;
             border-radius: 20px;
             object-fit: cover;
             object-position: 0% 30%;
         }
+    }
+
+    .about-pg {
+        gap: 1rem;
     }
 
     .habilidades {
@@ -144,14 +133,14 @@
 
         img {
             width: 10rem;
-            left: 150px;
+            left: 120px;
         }
     }
 
 
     .about {
 
-        margin-top: 6.5rem;
+        margin-top: 3rem;
 
         h1 {
             font-size: 3rem;
@@ -183,29 +172,26 @@
 
 @media(max-width:500px) {
 
+    .about {
+        h1 {
+            font-size: 2rem;
+        }
+    }
+
+    .about-title {
+
+        img {
+
+            width: 7rem;
+            left: 80px;
+        }
+    }
+
     .about-left {
 
         img{
             max-width: 17rem;
             max-height: 17rem;
         }
-
-    .about-pg {
-        p{
-            font-size: 1.2rem;
-        }
-    }
-
-    .about-title {
-       
-        h1{
-            font-size: 2rem;
-        }
-
-        img {
-            width: 7rem;
-            left: 110px;
-        }
-    }
     }
 }

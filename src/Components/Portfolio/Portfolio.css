@@ -1,6 +1,6 @@
 .portfolio {
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 9rem;
 }
 
 .portfolio-title {
@@ -9,40 +9,28 @@
     z-index: 1;
 
     h1 {
-        padding: 0 30px;
-        font-size: 80px;
+        font-size: 3.5rem;
         font-weight: 600;
     }
 
     img {
         position: absolute;
-        bottom: 0;
-        right: 0px;
         z-index: -1;
+        bottom: -5px;
+        right: -15px;
     }
 }
 
-.top-0-link {
-    img{
-      width: 3rem;
-      height: 3rem;
+@media(max-width:1200px) {
+    .portfolio {
+        margin-top: 5rem;
     }
-  }
-
-  .top-arrow {
-    display: block;
-    position: fixed;
-    bottom: 1rem;
-    border: 1px solid var(--off-white);
-    border-radius: 50%;
-    padding: .5rem;
-  }
-
+}
 
 @media(max-width:750px){
 
     .portfolio {
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     .portfolio-title {
@@ -52,7 +40,7 @@
 
         img {
             width: 10rem;
-            left: 150px;
+            left: 180px;
         }
     }
 }
@@ -60,17 +48,18 @@
 @media(max-width:500px){
 
     .portfolio {
-        margin-top: 10rem;
+        margin-top: 3rem;
     }
 
     .portfolio-title {
+        z-index: 0;
         h1 {
             font-size: 2rem;
         }
 
         img {
             width: 7rem;
-            left: 150px;
+            left: 120px;
         }
     }
 }
