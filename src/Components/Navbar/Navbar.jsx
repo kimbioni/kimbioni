@@ -10,7 +10,6 @@ import "react-social-icons/github";
 import "react-social-icons/whatsapp";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
-import up_arrow from "../../assets/up-arrow.svg";
 
 const Navbar = () => {
   //const [menu, setMenu] = useState('home')
@@ -21,10 +20,10 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
-    menuRef.current.style.right = "-350px";
+    menuRef.current.style.right = "-360px";
   };
 
-
+  
   return (
     <div className="navbar" id="home">
       <img src={logo} alt="logo Kim" className="nav-logo" />
@@ -43,17 +42,17 @@ const Navbar = () => {
         />
         <img src={logoMobile} alt="logo Kim" className="nav-logo-mobile" />
         <li className="hover-animation">
-          <AnchorLink className="anchor-link" href="#home">
+          <AnchorLink onClick={closeMenu} className="anchor-link" href="#home">
             Home
           </AnchorLink>
         </li>
         <li className="hover-animation">
-          <AnchorLink className="anchor-link" offset="30" href="#about">
+          <AnchorLink onClick={closeMenu} className="anchor-link" offset="40" href="#about">
             Sobre mim
           </AnchorLink>
         </li>
         <li className="hover-animation">
-          <AnchorLink offset="30" className="anchor-link" href="#portfolio1">
+          <AnchorLink onClick={closeMenu} offset="30" className="anchor-link" href="#portfolio1">
             Portifólio
           </AnchorLink>
         </li>
@@ -114,11 +113,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* <div>
-          <AnchorLink offset={100} className="anchor-link top-0-link" href="#navbar1">
-            <img className="top-arrow" src={up_arrow} alt="" />
-          </AnchorLink>
-      </div> */}
     </div>
   );
 };

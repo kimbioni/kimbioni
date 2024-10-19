@@ -160,3 +160,14 @@
     }
 }
 
+@media(max-width:375px) {
+    .construction {
+        margin-top: 5rem;
+    
+    }
+
+    .socials {
+        margin-top: 7rem;
+    }
+}
+
