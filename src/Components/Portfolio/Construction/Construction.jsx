@@ -12,7 +12,7 @@ const Construction = () => {
   return (
     <div className='construction'>
       <h1>Em <br />Construção</h1>
-      <p className='construction_pg'>Portifólio está quase pronto </p>
+      <p className='construction_pg'>Portfólio está quase pronto </p>
       <div className="progress">
         <div className="progress-bar">
             <div className="progress-bar_fill" />

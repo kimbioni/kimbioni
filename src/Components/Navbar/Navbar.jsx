@@ -53,7 +53,7 @@ const Navbar = () => {
         </li>
         <li className="hover-animation">
           <AnchorLink onClick={closeMenu} offset="30" className="anchor-link" href="#portfolio1">
-            Portifólio
+            Portfólio
           </AnchorLink>
         </li>
         <div className="nav-socials-mobile-menu">

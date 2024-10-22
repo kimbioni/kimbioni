@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div id='portfolio1' className='portfolio'>
       <div className="portfolio-title">
         <div>
-        <h1>Meu Portifólio</h1>
+        <h1>Meu Portfólio</h1>
         <img src={theme_pattern} />
         </div>
       </div>
