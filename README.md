@@ -22,10 +22,4 @@ Engenheiro Civil de formação, buscando primeira oportunidade na área de dev. 
 
 ---
 
-### 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=seuusername&show_icons=true&theme=dracula)
-
----
-
 Obrigado por visitar meu perfil! 😊
