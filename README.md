@@ -1,8 +1,31 @@
-# React + Vite
+# Olá, eu sou Kim Bioni! 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Desenvolvedor Front-End
 
-Currently, two official plugins are available:
+Engenheiro Civil de formação, buscando primeira oportunidade na área de dev. FrontEnd.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+### 🔧 Tecnologias e Ferramentas
+
+- **Linguagens:** JavaScript, HTML, CSS
+- **Frameworks & Bibliotecas:** React, TailwindCSS
+- **Ferramentas:** Git, Figma, VS Code
+
+---
+
+### 🌐 Conecte-se Comigo
+
+- **Portfólio:** (https://kimbioni.github.io/kimbioni)
+- **LinkedIn:** (https://www.linkedin.com/in/kim-bioni-9ba8a614b/)
+- **Instagram:** (https://instagram.com/k.bioni)
+
+---
+
+### 📈 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=seuusername&show_icons=true&theme=dracula)
+
+---
+
+Obrigado por visitar meu perfil! 😊
