@@ -17,9 +17,9 @@ Engenheiro Civil de formação, buscando primeira oportunidade na área de dev. 
 ### 🌐 Conecte-se Comigo
 
 - **Portfólio:** (https://kimbioni.github.io/kimbioni)
-- **LinkedIn:** (https://www.linkedin.com/in/kim-bioni-9ba8a614b/)
+- **LinkedIn:** (https://www.linkedin.com/in/kimbioni/)
 - **Instagram:** (https://instagram.com/k.bioni)
 
 ---
 
-Obrigado por visitar meu perfil! 😊
+Obrigado por visitar meu perfil! 
