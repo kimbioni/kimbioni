@@ -1,16 +1,16 @@
 # Olá, eu sou Kim Bioni! 👋
 
-### Desenvolvedor Front-End
+### Desenvolvedor RPA
 
-Engenheiro Civil de formação, buscando primeira oportunidade na área de dev. FrontEnd.
+Assistente de Desenvolvimento focado em transformar tarefas repetitivas em fluxos automatizados com Python e SQL (Oracle). Desenvolvo scripts para extração, tratamento e integração de dados, gerando relatórios e alimentando sistemas de forma confiável.
 
 ---
 
 ### 🔧 Tecnologias e Ferramentas
 
-- **Linguagens:** JavaScript, HTML, CSS
-- **Frameworks & Bibliotecas:** React, TailwindCSS
-- **Ferramentas:** Git, Figma, VS Code
+- **Linguagens:** Python, SQL, OracleDB
+- **Frameworks & Bibliotecas:** Pyautogui, Selenium 
+- **Ferramentas:** Git, VS Code
 
 ---
 
